@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>BA practices for devs</title>
+
+  <meta name="description" content="A presentation on basics of DevOps">
+  <meta name="author" content="Aleksandrs Ulme">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+  var link = document.createElement( 'link' );
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+  document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Title -->
+      <section>
+        <h1>BA for devs</h1>
+        <h3>Delivering real value</h3>
+      </section>
+
+      <section>
+        <section>
+          <h2>Product development</h2>
+        </section>
+        <section>
+          <h2>Understand your product</h2>
+          <ul>
+            <li>What is this product important?</li>
+            <li>Who cares about the product?</li>
+            <li>What would be a failure?</li>
+          </ul>
+        </section>
+        <section>
+          <h2>User Story mapping</h2>
+          <img class="stretch" src="https://images-na.ssl-images-amazon.com/images/G/01/aplusautomation/vendorimages/10eb4fe2-9dd5-4e89-a48d-5d3506fabb91.png._CB287022888_.png" />
+        </section>
+        <section>
+          <h2>Now let's make a user story map</h2>
+          <h3>Buying a t-shirt online</h3>
+        </section>
+      </section>
+
+      <!-- INVEST -->
+      <section>
+        <section>
+          <h2>Writing good user stories</h2>
+          <ul>
+            <li class="fragment">Every system automates a process</li>
+            <li class="fragment">Process worth automating delivers business value</li>
+            <li class="fragment">Business value is specific to persons</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>INVEST</h1>
+            <ul>
+              <li class="fragment">Independent</li>
+              <li class="fragment">Negotiable</li>
+              <li class="fragment">Valuable</li>
+              <li class="fragment">Estimable</li>
+              <li class="fragment">Small</li>
+              <li class="fragment">Testable</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Users are important</h2>
+            <ul>
+              <li class="fragment">Segments</li>
+              <li class="fragment">Personas</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>A persona</h2>
+            <img class="stretch" src="https://jleclainche.files.wordpress.com/2015/02/bridget_persona_template.png" alt="Fifty Quick Ideas to Improve Your User Stories" />
+          </section>
+
+          <section>
+            <h2>Bad stories</h2>
+            <ul>
+              <li class="fragment">As a user I want to submit feedback</li>
+              <li class="fragment">As Michael I want to log in</li>
+              <li class="fragment">As Michael I want to buy shoes online</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Examples</h2>
+            <ul>
+              <li>As platform user I want to know of any overrides that happened within a day so that I can identify and follow up on susupicious ones</li>
+              <li>As a marketing analys I want to know user drop out rates per form field so that I can optimize the user journey to improve conversion rate. </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Cross-functional requirements</h2>
+            <ul>
+              <li>Usability breakpoint</li>
+              <li>Differentiation</li>
+              <li>Saturation</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Acceptance criteria</h2>
+            <ul>
+              <li>How do we know it worked?</li>
+              <li>Non-(necessarily)-automated version of gherkin</li>
+            </ul>
+          </section>
+
+          <!-- Tech tasks -->
+          <section>
+            <h2>Tech tasks</h2>
+            <ul>
+              <li class="fragment">Controversial</li>
+              <li class="fragment">Totally legitimate</li>
+              <li class="fragment">Not user stories</li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- Splitting -->
+        <section>
+          <h2>Splitting stories</h2>
+          <ul>
+            <li class="fragment">Keep it INVEST</li>
+            <li class="fragment">Split by output</li>
+            <li class="fragment">Split by user</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <section>
+          <h2>Prioratization</h2>
+          <ul>
+            <li class="fragment">A conversation, not a breefing</li>
+            <li class="fragment">Think of value, development and testing</li>
+            <li class="fragment">Maintain hierarchical backlog</li>
+          </ul>
+        </section>
+        <section>
+          <h2>When in doubt, use the Force</h2>
+          <img class="stretch" src="http://data.whicdn.com/images/64933497/large.jpg" alt="Fifty Quick Ideas to Improve Your User Stories" />
+        </section>
+      </section>
+
+      <!-- Recommended Reading -->
+      <section>
+        <h2>Recommended reading</h2>
+        <img class="stretch" src="https://s3.amazonaws.com/titlepages.leanpub.com/50quickideas/large?1439804489" alt="Fifty Quick Ideas to Improve Your User Stories" />
+      </section>
+
+    </div>
+
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+
+  <script>
+
+  // Full list of configuration options available at:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+    // Optional reveal.js plugins
+    dependencies: [
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/zoom-js/zoom.js', async: true },
+      { src: 'plugin/notes/notes.js', async: true }
+    ]
+  });
+
+  </script>
+
+</body>
+</html>
